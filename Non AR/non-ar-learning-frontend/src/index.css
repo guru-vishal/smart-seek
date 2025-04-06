@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Nunito', sans-serif;
+  @apply bg-gray-50;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300;
+}
+
+.btn {
+  @apply px-4 py-2 rounded-md font-semibold transition-colors duration-300;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white hover:bg-blue-700;
+}
+
+.btn-secondary {
+  @apply bg-purple-600 text-white hover:bg-purple-700;
+}
+
+.btn-success {
+  @apply bg-green-600 text-white hover:bg-green-700;
+}
+
+.section-title {
+  @apply text-3xl font-bold text-gray-800 mb-6;
+}
+
+.game-card {
+  @apply bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 border-2 border-transparent hover:border-blue-500;
+}
+
+.object-card {
+  @apply bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow duration-300 border-2 border-transparent hover:border-blue-500 flex flex-col items-center justify-center cursor-pointer;
+}
