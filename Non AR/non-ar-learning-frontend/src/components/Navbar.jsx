@@ -10,7 +10,7 @@ const Navbar = () => {
     { path: '/learn', label: 'Learn Objects' },
     { path: '/games', label: 'Games & Quizzes' },
     { path: '/progress', label: 'Progress Dashboard' },
-    { path: '/ar-learning', label: 'AR Learning' },
+    { path: 'https://smart-seek.vercel.app/', label: 'AR Learning' },
   ];
 
   const toggleMenu = () => {

@@ -10,7 +10,7 @@ const Navbar = () => {
     { name: 'Object Scanner', path: '/scan' },
     { name: 'AR Object Hunt', path: '/hunt' },
     { name: 'Progress Dashboard', path: '/progress' },
-    { name: 'Non-AR Learning', path: '/non-ar'}
+    { name: 'Non-AR Learning', path: 'https://smart-seek-non-ar.vercel.app/'}
   ];
 
   const toggleMenu = () => {
